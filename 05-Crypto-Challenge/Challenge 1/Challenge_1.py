@@ -20,7 +20,8 @@ contents = csv.reader(csv_file)
 
 csv_hash = open("UserInfo_Hashed.csv", "w", newline= '')
 writer = csv.writer(csv_hash)
-
+##########################################################################################################
+##########################################################################################################
 def hasher(tobe):
     s256 = hashlib.sha256()
     s256.update(tobe.encode('utf-8'))
