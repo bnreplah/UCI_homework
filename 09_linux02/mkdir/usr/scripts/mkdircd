@@ -1,0 +1,21 @@
+
+#!/bin/bash
+#the script should:
+#### create a directory using the first positional parameter
+#### move into that directory
+#### create a file using the second positional parameter
+#### open this file with nano
+####
+## $0
+## $1
+## $2
+## $3
+## $4 are all positional parameters
+## positional parameters are those inputed after the command is run hence
+## run_me_script I_am_1 I_am_2 I_am_3 I_am_3
+
+mkdir $1
+cd $_
+touch $2
+nano $2 
+
