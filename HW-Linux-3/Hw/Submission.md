@@ -36,9 +36,17 @@
 
 #### Incremental Backups
 - **Exercise 1**
-  - A **snapshot file** is `tar --create --file=base.tar --listed-incremental=/var/log/usr.snar /usr`.
-  - A **backup level** is `tar --create --file=archive.3.tar --listed-incremental=/var/log/usr.snar /usr`.
-  - A **level 0 backup** is `tar --create --file=base.0.tar --listed-incremental=/var/log/usr.snar --level=0 /usr`.
+  - A **snapshot file** is 'is a file created during incremental backups. This file contains the 
+status of the files sytem at the time of the dump, determining which files were modified.'
+	`tar --create --file=base.tar --listed-incremental=/var/log/usr.snar /usr`.
+  - A **backup level** is 'the levels of modification since the initial commit. In full backups 
+the back up levels remain in the range of 0-1 while one file is consistantly rewritten with all 
+the new changed information of the current state of the computer. In incremental backups each 
+level contaisnt the modified data from the last.'
+	`tar --create --file=archive.3.tar --listed-incremental=/var/log/usr.snar /usr`.
+  - A **level 0 backup** is 'is a backup containing a abckup fo all the details of the entire 
+operating system'
+	`tar --create --file=base.0.tar --listed-incremental=/var/log/usr.snar --level=0 /usr`.
 
 - **Exercise 2**
 
