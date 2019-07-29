@@ -1,4 +1,4 @@
-q
+
 #!/bin/bash
 #user passes an incomplete ip
 dev/null > live_hosts
