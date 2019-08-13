@@ -1,0 +1,17 @@
+Web-Vulnerabilities
+	Running wordpress and wordpress is vulnerable
+	Apache outdated
+	Poorly configured firewall
+	directories listable or front facing
+	Wordpress Usernames found in the config of the wordpress login
+Infiltration vulnerabilities
+	SSH is bruteforcable
+	No IPS 
+	Poorly configured firewall
+	SQL config is readable to all users
+		Contains log in credentials 
+Privelege Escalation 
+	Weak passwords
+	( vulnerabilities to be explored through michael priv esc )
+	steven has sudo privilidges ( steven has nologin sudo access to python )
+	outdate linux
