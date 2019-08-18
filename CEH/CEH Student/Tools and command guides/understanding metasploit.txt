@@ -1,0 +1,33 @@
+Good Metasploit Websites
+https://www.offensive-security.com/metasploit-unleashed/exploits/
+https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/
+https://www.rapid7.com/db/modules/exploit/windows/browser/ms13_037_svg_dashstyle -search for vulnerabilities in metasploit
+https://www.offensive-security.com/metasploit-unleashed/psexec-pass-hash/  -Pass the hash with windows
+
+https://www.offensive-security.com/metasploit-unleashed/Msfencode/   -Creating a trojan...old, but informative.
+
+https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom    - Using msfvenom
+
+http://netsec.ws/?p=331  -msfvenom updates
+
+https://community.rapid7.com/community/metasploit/blog/2013/01/17/metasploit-updates-and-msfupdate
+
+http://www.windowsecurity.com/articles-tutorials/misc_network_security/Dissecting-Pass-Hash-Attack.html
+
+https://www.offensive-security.com/metasploit-unleashed/msfvenom/  -more venom
+
+Syntax
+
+http://nihalmistry.blogspot.com/2012/10/metasploit-beginner-what-is-exploit.html
+
+1. Exploit : An exploit is the means by which an attacker, or pentester, takes advantage of a flaw within a system, an application, or a service. An attacker uses an exploit to attack a system in a way that results in a particular desired outcome that the developer never intended. Common exploits include buffer overflows, web application vulnerabilities (such as SQL injection), and configuration errors.
+
+2. Payload : A payload is code that we want the remote system to execute and that is to be selected and delivered by the framework. For example, a reverse shell is a payload that creates a connection from the target machine back to the attacker as a Windows command prompt , whereas a bind shell is a payload that “binds” a command prompt to a listening port on the target machine, which the attacker can then connect. A payload could also be something as simple as a few commands to be executed on the target operating system.
+
+3. Shell Code : Shell code is a set of instructions used as a payload when exploitation occurs. Shell code is typically written in assembly language. In most cases, a command shell or a Meterpreter (we will discuss later) shell access will be provided after the series of instructions have been performed by the target machine, hence the name.
+
+4. Modules : Modules are nothing but softwares using which we can launch our exploits, scan the remote systems, enumerate the remote system. Modules are the most important part of the Metasploit Framework.
+
+5. Listener : A Listener is a component in Metasploit which waits for an incoming connection of any sort after the remote system is exploited. For eg.  
+On Remote System: After we exploit the system we may want the remote system to provide us shell access so we will use the reverse shell payload which executes commands on the remote system and makes the system to connect us on particular port.  
+On Local System: On our system we would run a listener which waits for the incoming connection on a particular port from the remote system.

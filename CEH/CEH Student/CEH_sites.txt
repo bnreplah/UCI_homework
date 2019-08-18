@@ -1,0 +1,19 @@
+https://www.checkmarx.com/2015/11/06/13-more-hacking-sites-to-legally-practice-your-infosec-skills/
+
+http://list.ly/list/euz-15-vulnerable-sites-to-legally-practice-your-hacking-skills
+
+CEH Playground(S)
+http://overthewire.org/wargames
+https://hackyourselffirst.troyhunt.com/
+      http://www.troyhunt.com/2013/09/you-are-cordially-invited-to-hack-me.html
+https://hack.me/
+http://www.hackthissite.org/pages/index/index.php
+http://www.slavehack.com/
+https://www.hackthis.co.uk/levels/
+http://www.enigmagroup.org/
+http://www.gameofhacks.com/
+http://google-gruyere.appspot.com/start
+https://www.hacksplaining.com/
+
+
+https://hackertarget.com/7-nmap-nse-scripts-recon/

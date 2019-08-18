@@ -1,0 +1,172 @@
+CEH Warm-Up quiz
+Questions
+Which type of hacker is considered unethical?
+White Hat
+Grey Hat
+	XX Black Hat XX
+Blue Hat
+Correct Answer : Black Hat
+
+
+What is the main difference between ethical and malicious hackers?
+	xx Ethical hackers have written permission xx
+Ethical hackers have verbal permission 
+Ethical hackers don't use real exploits
+Malicious hackers never perform information gathering
+Correct Answer: Written Permission
+
+
+Which type of testing takes place when pentesters have no knowledge of the target network?
+Grey Box
+	xx Black Box xx
+White Box
+Blind test
+Correct Answer: Black Box
+
+
+
+You performed a full backup on Monday, and an incremental backup on Tuesday. If there is an outage on Wednesday, what do you need to restore operations?
+Only the full backup from Monday
+	xx the full backup from Monday and the incremental backup from Tuesday xx
+Only the incremental backup from Tuesday
+Correct Answer: Incremental and Full
+
+
+
+Suppose an attacker alters the contents of two files on the server. Which of the following best describes what was compromised?
+Authentication
+Confidentiality
+	xx integrity xx
+Availability
+Correct: Integrity
+
+
+
+A SYN Scan is used in which kind of reconnaissance?
+Active Reconnaissance
+	xx Passive Reconnaissance xx
+Open Source Information Gathering
+Internal Reconnaissance
+Correct: Active
+	Activ because must directly interact
+
+
+
+How long is an IPv6 address?
+64 bits
+128 bits
+	xx 256 bits xx
+32 bits
+Correct: 128
+
+
+
+How long is an IPv4 address?
+64 bits
+128 bits
+256 bits
+	xx 32 bits xx
+Correct: 32
+
+
+
+An ICMP Type 8 message indicates which of the following?
+Ping Request
+Router Advertisement
+Host Unreachable Message
+	xx TTL Failure xx
+Correct: Ping Request
+
+
+Which of the following ports is an attacker most likely to scan when attacking a Windows machine?
+445/tcp
+53/udp
+80/tcp
+	xx 443/tcp xx
+Correct: 445 SMB
+
+
+
+Suppose you run a SYN scan against a target host. Which of the following best describes the state of connections to the target machine after the scan?
+	xx Half-Open xx
+Fully Open
+Full Duplex
+Half Duplex
+Correct: Half open
+
+
+Which of the following is a Layer 2 attack?
+	xx ARP Spoofing xx
+SQL Injection
+BGP Hijacking
+Ping Sweep
+Correct : arp spoofing
+
+
+Which of the following would an attacker use to retrieve all DNS records from a nameserver?
+Zone Transfer
+AAAA Request
+CNAME Attack
+	xx DHCP Exhaustion xx
+Correct: Zone Transfer
+
+
+
+You've determined that ports 80 and 443 on a target machine are open. What is the next step?
+	xx Banner-Grab and Service-Scan Ports 80 and 443 xx
+Brute-Force Ports 80 and 443
+Attempt to Exploit Ports 80 and 443
+Scan for Additional Open Ports
+Correct: Banner Grab
+
+
+
+Which of the following Nmap flags is used for OS fingerprinting?
+	xx -A xx
+	xx -oN xx
+-sS
+-sU
+Correct: -A for aggressive scan
+		-oN simply is an output
+
+
+Identify what the following Nmap command does: nmap -sn 192.168.12.0/24
+Port-Scan all devices in 192.168.12.0/24
+Perform a UDP scan on 192.168.12.0/24
+Service-Scan 192.168.12.0/24
+	xx Perform a Ping Sweep on 192.168.12.0/24 xx
+Correct: ping sweep
+
+
+Suppose you capture a packet from a system you're investigating. Its IP header is 20 bytes long, and it has a datagram length of 84 bytes. Which OS is most likely to have sent this packet?
+Windows XP
+	xx Windows 10 xx
+Linux
+Solaris
+Correct:Linux
+
+
+
+Suppose you run the following command. If port 22 is open, which TCP flag is set on the response?
+$ nmap -sS -p 22 192.168.12.7
+ ACK
+	xx SYN xx
+RST
+URG
+Correct: Syn/Ack
+
+Which of the following netcat commands banner-grabs the HTTP server of a target machine?
+ncat -lvp 2222
+	xx ncat -v 192.168.12.8 80 xx
+ncat -v 192.168.12.8 8080 < cat /etc/shadow
+ncat 192.168.12.8 443
+Correct : Port 80
+
+
+
+Which of the following tools would an attacker use to poison a target's ARP cache?
+Nmap
+Kismet
+	xx Cain & Abel xx
+enum4linux
+Correct: Cain and Abel Onl
