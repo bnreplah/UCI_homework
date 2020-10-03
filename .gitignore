@@ -1,4 +1,6 @@
 
 *.tmp
-
+/CEH/'CEH Student'/*
+/CEH/ZoomIt/*
+/CEH/*.pdf
 21-Pentesting3/~\$ven_security_report\.docx
